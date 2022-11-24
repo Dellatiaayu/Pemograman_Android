@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: title,
       home: MyStatelessWidget(),
     );
@@ -27,7 +27,7 @@ class MyStatelessWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AppBAr Tutorial'),
+        title: const Text('AppBar Tutorial'),
       ),
       body: const Center(
         child: Text(
